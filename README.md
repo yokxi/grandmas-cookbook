@@ -16,3 +16,34 @@ Una raccolta digitale delle ricette tradizionali di Nonna Maria, conservate con 
 
 ## 🛠️ Installazione
 Basta clonare il repository e aprire `index.html` nel browser!
+
+## 📝 Come aggiungere una ricetta
+
+1.  Apri il file `js/recipes/store.js`.
+2.  Aggiungi un nuovo oggetto ricetta seguendo questo formato:
+    ```javascript
+    'id_nuova_ricetta': {
+        title: "Nome della Ricetta",
+        category: "Primi/Secondi/Dolci/Altro",
+        ingredients: [
+            "Ingrediente 1",
+            "Ingrediente 2"
+        ],
+        steps: [
+            "Passaggio 1",
+            "Passaggio 2"
+        ],
+        notes: "Note opzionali"
+    },
+    ```
+3.  Apri `index.html`, vai nella sezione della categoria scelta e aggiungi la "card" copiando questa struttura:
+    ```html
+    <article class="recipe-card">
+        <div class="recipe-thumb">
+            <div class="placeholder-img">Nome Immagine</div>
+        </div>
+        <h3>Nome della Ricetta</h3>
+        <p>Breve descrizione.</p>
+        <button class="btn-read" onclick="openRecipe('id_nuova_ricetta')">Leggi Ricetta</button>
+    </article>
+    ```
