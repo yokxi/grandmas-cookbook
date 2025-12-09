@@ -219,7 +219,7 @@ h2 {
     }
 
 
-    body.modal-open .notebook-container>*:not(#recipe-modal) {
+    body.modal-open .notebook-container {
         display: none;
     }
 
