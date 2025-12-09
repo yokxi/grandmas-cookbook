@@ -1,6 +1,6 @@
 <div align="center">
 
-# Le Ricette di Nonna Maria
+# Grandma Maria's Recipes
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -8,47 +8,47 @@
 
 <br>
 
-_Una raccolta digitale delle ricette tradizionali di Nonna Maria, conservate con amore in un formato che ricorda un vecchio quaderno di cucina._
+_A digital collection of Grandma Maria's traditional recipes, lovingly preserved in a format that resembles an old kitchen notebook._
 
-[**🌐 VAI AL SITO WEB**](https://yokxi.github.io/grandmas-cookbook/)
+[**🌐 GO TO WEBSITE**](https://yokxi.github.io/grandmas-cookbook/)
 
 </div>
 
-## 🚀 Caratteristiche
-- **Design Vintage**: Stile grafico curato che ricorda carta e inchiostro.
-- **Ricette Organizzate**: Suddivisione in Primi, Secondi, Dolci e Altro.
-- **Stampa PDF**: Funzionalità per stampare o salvare le ricette in PDF.
+## 🚀 Features
+- **Vintage Design**: Curated graphic style resembling paper and ink.
+- **Organized Recipes**: Divided into First Courses, Main Courses, Desserts, and Others.
+- **PDF Printing**: Functionality to print or save recipes as PDF.
 
-## 🛠️ Installazione
-Basta clonare il repository e aprire `index.html` nel browser!
+## 🛠️ Installation
+Just clone the repository and open `index.html` in your browser!
 
-## 📝 Come aggiungere una ricetta
+## 📝 How to add a recipe
 
-1.  Apri il file `js/recipes/store.js`.
-2.  Aggiungi un nuovo oggetto ricetta seguendo questo formato:
+1.  Open the file `js/recipes/store.js`.
+2.  Add a new recipe object following this format:
     ```javascript
-    'id_nuova_ricetta': {
-        title: "Nome della Ricetta",
+    'new_recipe_id': {
+        title: "Recipe Name",
         category: "Primi/Secondi/Dolci/Altro",
         ingredients: [
-            "Ingrediente 1",
-            "Ingrediente 2"
+            "Ingredient 1",
+            "Ingredient 2"
         ],
         steps: [
-            "Passaggio 1",
-            "Passaggio 2"
+            "Step 1",
+            "Step 2"
         ],
-        notes: "Note opzionali"
+        notes: "Optional notes"
     },
     ```
-3.  Apri `index.html`, vai nella sezione della categoria scelta e aggiungi la "card" copiando questa struttura:
+3.  Open `index.html`, go to the chosen category section, and add the "card" by copying this structure:
     ```html
     <article class="recipe-card">
         <div class="recipe-thumb">
-            <div class="placeholder-img">Nome Immagine</div>
+            <div class="placeholder-img">Image Name</div>
         </div>
-        <h3>Nome della Ricetta</h3>
-        <p>Breve descrizione.</p>
-        <button class="btn-read" onclick="openRecipe('id_nuova_ricetta')">Leggi Ricetta</button>
+        <h3>Recipe Name</h3>
+        <p>Short description.</p>
+        <button class="btn-read" onclick="openRecipe('new_recipe_id')">Read Recipe</button>
     </article>
     ```
