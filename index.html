@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Ricette di Nonna Maria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="notebook-container">
+        <header class="main-header">
+            <div class="photo-frame">
+                <img src="assets/images/nonna.png" alt="Nonna Maria" class="nonna-photo">
+            </div>
+            <h1>Le Ricette di Nonna Maria</h1>
+            <p class="subtitle">I segreti della cucina di una volta, conservati con amore.</p>
+        </header>
+
+        <nav class="categories-nav">
+            <ul>
+                <li><a href="#primi" onclick="showCategory('primi')">Primi</a></li>
+                <li><a href="#secondi" onclick="showCategory('secondi')">Secondi</a></li>
+                <li><a href="#dolci" onclick="showCategory('dolci')">Dolci</a></li>
+                <li><a href="#altro" onclick="showCategory('altro')">Altro</a></li>
+            </ul>
+        </nav>
+
+        <main id="content-area">
+            <main id="content-area">
+                <section id="intro" class="active">
+                    <h2>Benvenuti nella mia cucina</h2>
+                    <p>Queste sono le ricette che ho cucinato per anni per la mia famiglia.
+                        Spero che possano portare la stessa gioia sulla vostra tavola.</p>
+                    <div class="recipe-grid_placeholder">
+                        <p>Seleziona una categoria per vedere le ricette.</p>
+                    </div>
+                </section>
+
+                <!-- Categories Sections (Hidden mainly, shown via JS) -->
+                <section id="primi" class="category-section" style="display:none;">
+                    <h2>Primi Piatti</h2>
+                    <div class="recipe-grid">
+                        <p>Nessuna ricetta presente.</p>
+                    </div>
+                </section>
+
+                <section id="secondi" class="category-section" style="display:none;">
+                    <h2>Secondi Piatti</h2>
+                    <div class="recipe-grid">
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Polpettone</div>
+                            </div>
+                            <h3>Polpettone alla Siciliana</h3>
+                            <p>Un secondo piatto ricco e saporito con olive e cipolle.</p>
+                            <button class="btn-read" onclick="openRecipe('polpettone_siciliana')">Leggi Ricetta</button>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="dolci" class="category-section" style="display:none;">
+                    <h2>Dolci</h2>
+                    <div class="recipe-grid">
+                        <p>Caricamento ricette...</p>
+                    </div>
+                </section>
+
+                <section id="altro" class="category-section" style="display:none;">
+                    <h2>Altro</h2>
+                    <div class="recipe-grid">
+                        <p>Conserve e liquori.</p>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+            </footer>
+    </div>
+
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content notebook-page">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modal-body">
+            </div>
+            <div class="modal-actions">
+                <button onclick="printRecipe()" class="btn-print">🖨️ Stampa / Salva PDF</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/recipes/store.js"></script>
+    <script src="js/recipes/store.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
