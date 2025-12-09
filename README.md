@@ -6,7 +6,7 @@
 
 ## 📸 Anteprima Sito
 
-![Anteprima Sito](assets/preview.png)
+![Anteprima Sito](https://yokxi.github.io/grandmas-cookbook/)
 
 ## 📖 Descrizione
 Una raccolta digitale delle ricette tradizionali di Nonna Maria, conservate con amore in un formato che ricorda un vecchio quaderno di cucina.
