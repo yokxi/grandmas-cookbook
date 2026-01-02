@@ -643,8 +643,7 @@ const recipes = {
             "Zucchero: 120g",
             "Latte: 1/2 litro",
             "Caffè ristretto: una tazzina",
-            "Panna: 1/4 (da montare o fresca)",
-            "Farina: 1/4 (presumibilmente di etto/litro? o cucchiai? nel dubbio usiamo q.b. per addensare se non specificato meglio, ma seguiamo il testo)",
+            "Panna: 1/4 (di litro?)",
             "Savoiardi",
             "Cioccolata fondente"
         ],
@@ -652,10 +651,421 @@ const recipes = {
             "Battere le uova con lo zucchero.",
             "Aggiungere il latte bollente.",
             "Mettere il composto sul fuoco e lasciarlo addensare.",
-            "Quando è freddo aggiungere il caffè e la panna (o farina se inteso come addensante postumo, ma improbabile, verosimilmente panna per arricchire la crema fredda).",
-            "Bagnare i savoiardi nella crema (o bagna apposita se sottinteso) e allinearli in un piatto fino a formare una piramide.",
+            "Quando è freddo aggiungere il caffè e la panna.",
+            "Bagnare i savoiardi nella crema e allinearli in un piatto fino a formare una piramide.",
             "Lasciare per qualche ora nel frigo.",
             "Al momento di servirli sciogliere la cioccolata fondente e metterla sopra."
+        ]
+    },
+
+    'mostaccioli': {
+        title: "Mostaccioli",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1.250 Kg",
+            "Zucchero: 850g",
+            "Acqua: 350g",
+            "Cacao: 15g",
+            "Miele: 1 cucchiaino",
+            "Cannella: 15g",
+            "Vanillina",
+            "Ammoniaca: 20g"
+        ],
+        steps: [
+            "Impastare tutti gli ingredienti (farina, zucchero, acqua, cacao, miele, cannella, vaniglia, ammoniaca).",
+            "Dare la forma (tipici rombi).",
+            "Infornare."
+        ]
+    },
+
+    'dolcetti_luana': {
+        title: "Dolcetti (Luana)",
+        category: "Dolci",
+        ingredients: [
+            "Mandorle macinate: 500g",
+            "Zucchero: 400g",
+            "Vanillina: 1 bustina",
+            "Albumi: 4",
+            "Acqua: 1/2 bicchiere"
+        ],
+        steps: [
+            "Sciogliere lo zucchero con l'acqua aggiungendo la vanillina e portare a leggera ebollizione.",
+            "Spegnere il fuoco ed aggiungere le mandorle amalgamando tutto.",
+            "Far raffreddare.",
+            "Aggiungere i bianchi montati a neve e impastare con le mani.",
+            "Formare piccole palline, mettere metà ciliegina e schiacciare lievemente.",
+            "Infornare su carta forno, forno già caldo a circa 180° per 10-15 minuti."
+        ],
+        notes: "Ricetta di Luana"
+    },
+
+    'zeppole_olga': {
+        title: "Zeppole (Olga)",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1 Kg",
+            "Uova: 5",
+            "Lievito di birra: 50g",
+            "Patate: 3 o 4",
+            "Burro: 100g",
+            "Zucchero: 1 cucchiaio",
+            "Sale: 1 pizzico",
+            "Latte: 1 pacchettino (per sciogliere il lievito)",
+            "Limone grattugiato",
+            "Liquore Strega: 1 bicchierino"
+        ],
+        steps: [
+            "Lessare e schiacciare le patate.",
+            "Calde, unirle al burro e lavorarle per bene.",
+            "Unire la farina e tutti gli altri ingredienti.",
+            "Sbattere per bene l'impasto in un contenitore.",
+            "Lavorarlo dolcemente sullo schianatoio.",
+            "Formare delle zeppoline e metterle a lievitare.",
+            "Dopo fritte, s'avvolgono nello zucchero e cannella."
+        ],
+        notes: "Ricetta di Olga"
+    },
+
+    'bucce_candite': {
+        title: "Bucce Candite (Arance)",
+        category: "Dolci",
+        ingredients: [
+            "Bucce d'arancia",
+            "Acqua",
+            "Zucchero"
+        ],
+        steps: [
+            "Mettere le bucce in una pentola coperte d'acqua e far bollire per 15 minuti.",
+            "Passarle nell'acqua fredda ed asciugarle per bene.",
+            "Sistemarle in un barattolo coprendole con lo zucchero.",
+            "Il giorno dopo e per 7 giorni, fare sgocciolare lo sciroppo che è uscito dalle arance, farlo bollire, versarlo di nuovo sulle bucce e aggiungere altro zucchero (ripetere sempre la stessa operazione).",
+            "Dopo si sistemano nei vasi di vetro e si conservano per molti mesi."
+        ]
+    },
+
+    'panettone_bicarbonato': {
+        title: "Panettone (con bicarbonato)",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1 Kg",
+            "Uova: 6",
+            "Zucchero: 300g",
+            "Burro o Sugna: 250g",
+            "Cedro e Uva passa: una tazza (o q.b.)",
+            "Latte: quanto ne assorbe",
+            "Cremore: 30g",
+            "Bicarbonato: 15g"
+        ],
+        steps: [
+            "Impastare tutti gli ingredienti.",
+            "Aggiungere il latte quanto basta per ottenere la consistenza giusta."
+        ]
+    },
+
+    'occhi_di_bue': {
+        title: "Occhi di Bue",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1 Kg",
+            "Zucchero: 400g",
+            "Burro: 400g",
+            "Uova: 5",
+            "Limone grattugiato",
+            "Ammoniaca: 1/2 cucchiaino (oppure 2 cucchiaini Paneangeli)",
+            "Miele: 1/2 cucchiaio",
+            "Marmellata"
+        ],
+        steps: [
+            "Impastare tutto e mettere l'impasto nel frigo per un'ora.",
+            "Fare i dischi: uno chiuso e uno col buco al centro.",
+            "Cuocerli nel forno.",
+            "Prendere la marmellata, metterla in un pentolino con un po' d'acqua (o Stock) e spalmarla sul biscotto intero.",
+            "Coprirlo con quello aperto."
+        ]
+    },
+
+    'roccoco': {
+        title: "Roccocò",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1.500 Kg",
+            "Zucchero: 1 Kg",
+            "Mandorle a pezzettini: 400g",
+            "Frutta candita: a piacere (o 200g)",
+            "Ammoniaca: 20g",
+            "Arancio e limone grattugiato",
+            "Cannella",
+            "Acqua tiepida",
+            "Uovo per spennellare"
+        ],
+        steps: [
+            "Impastare tutto con acqua tiepida.",
+            "Formare i roccocò.",
+            "Spennellare con uovo.",
+            "Cuocere in forno."
+        ]
+    },
+
+    'naspro': {
+        title: "Naspro (Glassa)",
+        category: "Altro",
+        ingredients: [
+            "Zucchero",
+            "Acqua",
+            "Bianchi d'uovo (Albumi)"
+        ],
+        steps: [
+            "Proporzioni: Ogni bianco d'uovo porta 80g di zucchero.",
+            "Oppure misurare col bicchiere: due parti di zucchero e una d'acqua.",
+            "Mettere a bollire acqua e zucchero.",
+            "Sbattere i bianchi a neve.",
+            "Quando lo zucchero 'fila' (forma un filo quando colato), versarlo bollente sui bianchi.",
+            "Continuare a sbattere fino a che siano freddi."
+        ]
+    },
+
+    'panettone_crema': {
+        title: "Panettone con crema",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 600g",
+            "Uova: 2",
+            "Marsala: 100g",
+            "Sugna: 150g",
+            "Limone grattugiato",
+            "Zucchero: 250g",
+            "Lievito Paneangeli: 2 bustine",
+            "Crema (non specificata, probabilmente crema pasticcera o confettura)"
+        ],
+        steps: [
+            "Mischiare tutto con le mani senza lavorare molto.",
+            "Mettere una porzione nella teglia imburrata.",
+            "Coprire con la crema.",
+            "Mettere il resto della pasta sopra con le mani come una pioggia di grandine."
+        ]
+    },
+
+    'pesche_amaretti': {
+        title: "Pesche agli Amaretti",
+        category: "Dolci",
+        ingredients: [
+            "Pesche gialle: 4",
+            "Zucchero: 100g",
+            "Burro: 50g",
+            "Uova: 1",
+            "Amaretti: 100g",
+            "Mandorle: 5",
+            "Sherry (Sherri): 1 bicchierino",
+            "Cacao amaro: 25g"
+        ],
+        steps: [
+            "Sbucciare le pesche, privarle del nocciolo e tagliarle a metà.",
+            "Tagliare un po' di polpa al centro delle pesche.",
+            "In una terrina unire la polpa, gli amaretti tritati, l'uovo intero, il cacao, le mandorle tritate, lo sherry e lo zucchero.",
+            "Lavorare bene il composto.",
+            "Suddividere il ripieno nelle cavità delle mezze pesche.",
+            "Disporre le pesche in una pirofila imburrata.",
+            "Cospargere di fiocchi di burro.",
+            "Infornare e servire sia calde che fredde."
+        ]
+    },
+
+    'tiramisu': {
+        title: "Tiramisù",
+        category: "Dolci",
+        ingredients: [
+            "Uova: 4",
+            "Mascarpone: 400g (freschissimo)",
+            "Rum o Brandy: 2 cucchiai",
+            "Savoiardi: 300g",
+            "Caffè leggero: 1/4 (di litro?)",
+            "Zucchero: 100g",
+            "Cacao amaro (per spolverizzare)"
+        ],
+        steps: [
+            "Sgusciare i tuorli tenendo da parte gli albumi.",
+            "In una terrina unire i tuorli con lo zucchero e montarli a spuma.",
+            "Incorporare il mascarpone (freschissimo) e montare ancora finché si ottiene una crema omogenea.",
+            "Aggiungere il liquore (Rum o Brandy).",
+            "Montare a neve metà degli albumi e uniteli alla crema di uovo e mascarpone amalgamando bene.",
+            "Versate il caffè freddo in una ciotola, zuccheratelo a piacere.",
+            "Immergere velocemente i savoiardi uno per volta e coprire il fondo di una pirofila rettangolare.",
+            "Stendere sopra uno strato di crema, poi ancora uno strato di savoiardi.",
+            "Ripetere uno strato di crema e quello di savoiardi e terminate con la crema livellata bene.",
+            "Mettere in frigo coperto.",
+            "Al momento di servire, spolverizzare con cacao amaro usando un colino."
+        ]
+    },
+
+    'fette_dolci_elena': {
+        title: "Fette Dolci Elena",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1 Kg",
+            "Uova: 8",
+            "Zucchero: 1/2 Kg",
+            "Sugna: 150g",
+            "Cremore: 30g",
+            "Bicarbonato: 20g",
+            "Limone grattugiato",
+            "Latte: una tazza",
+            "Per la 'Pappetta per i profitteroli':",
+            "Crema pasticcera: 1 litro",
+            "Cioccolato fondente: 600g",
+            "Liquore Strega: 100g",
+            "Acqua: 100g con un cucchiaio di zucchero",
+            "Cioccolata grattugiata"
+        ],
+        steps: [
+            "Impastare gli ingredienti principali (farina, uova, zucchero, sugna, lieviti, limone, latte).",
+            "Per la copertura (pappetta): aggiungere alla crema ancora calda la cioccolata grattugiata con il liquore.",
+            "Aggiungere l'acqua zuccherata a poco a poco.",
+            "Riempire i dolci con la panna.",
+            "Uno per volta, si immergono nella 'pappetta' e si forma una piramide.",
+            "Si mettono in frigo o nel congelatore."
+        ]
+    },
+
+    'bastoncini_postiglione': {
+        title: "Bastoncini (Postiglione)",
+        category: "Dolci",
+        ingredients: [
+            "Pan di Spagna",
+            "Cioccolato fondente",
+            "Farina di cocco (cocco disidratato)"
+        ],
+        steps: [
+            "Si preparano dei bastoncini di pan di spagna.",
+            "Si arrotolano uno per volta nel cioccolato fondente sciolto a bagnomaria.",
+            "Si avvoltolano nella farina di cocco.",
+            "Si fanno asciugare su un foglio di carta bianca."
+        ]
+    },
+
+    'pan_di_spagna_luana': {
+        title: "Pan di Spagna senza bustine (Luana)",
+        category: "Basi",
+        ingredients: [
+            "Uova: 6",
+            "Zucchero: 225g",
+            "Farina: 225g",
+            "Limone grattugiato o Vaniglia"
+        ],
+        steps: [
+            "Sbattere uova e zucchero per molto tempo.",
+            "Aggiungere per ultimo la farina girando dolcemente con una spatola.",
+            "Teglia 25x40.",
+            "Cottura: 45 minuti."
+        ]
+    },
+
+    'pan_di_spagna_classico': {
+        title: "Pan di Spagna (Classico)",
+        category: "Basi",
+        ingredients: [
+            "Farina: 300g",
+            "Zucchero: 300g",
+            "Uova: 8",
+            "Lievito: 1 bustina"
+        ],
+        steps: [
+            "Sbattere tuorli e zucchero fino a diventare una crema.",
+            "Aggiungere la farina e il lievito.",
+            "In ultimo l'albume montato a neve e girare delicatamente."
+        ]
+    },
+
+    'fette_dolci_miele_olivetta': {
+        title: "Fette Dolci al Miele (Olivetta)",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1.5 Kg",
+            "Miele: 1/2 Kg",
+            "Uova: 5",
+            "Strega o Rum: un po'",
+            "Bicarbonato: un po' (o Paneangeli 2 bustine)",
+            "Zucchero: 300g",
+            "Limone grattugiato"
+        ],
+        steps: [
+            "Si lavora il tutto per bene.",
+            "Si formano dei panetti lunghi e si tagliano ancora caldi.",
+            "Metterli su carta forno."
+        ]
+    },
+
+    'torta_al_caffe': {
+        title: "Torta al Caffè",
+        category: "Dolci",
+        ingredients: [
+            "Tuorli: 6",
+            "Zucchero: 100g",
+            "Farina: 100g (mescolata con mezza bustina di lievito)",
+            "Burro fuso: 50g",
+            "Caffè ristretto: 2 tazzine",
+            "Cacao in polvere: 1 cucchiaino",
+            "Albumi: 3 (montati a neve ben ferma)",
+            "Panna e Cacao (per guarnire)"
+        ],
+        steps: [
+            "Montare i tuorli con lo zucchero.",
+            "Aggiungere la farina col lievito.",
+            "Quindi unire il burro fuso, il caffè e il cacao.",
+            "Infine incorporare gli albumi montati.",
+            "Versare in una tortiera di 20cm imburrata e infarinata.",
+            "Cuocere a 180° per 45 minuti circa.",
+            "Spalmare sulla superficie uno strato di panna e del cacao con un colino."
+        ]
+    },
+
+    'torta_di_rose': {
+        title: "Torta di Rose",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 300g",
+            "Tuorli: 3",
+            "Olio: 3 cucchiai",
+            "Zucchero: 1 cucchiaio",
+            "Latte: 1/2 bicchiere (tiepido)",
+            "Lievito di birra: 25g (sciolto nel latte)",
+            "Scorza di limone",
+            "Sale: 1 pizzico",
+            "Per farcire:",
+            "Burro morbido: 150g",
+            "Zucchero: 1 bicchiere"
+        ],
+        steps: [
+            "Mettere nel boccale (o impastatrice) zucchero e scorza di limone.",
+            "Aggiungere il latte con il lievito sciolto, l'olio e i tuorli.",
+            "Versare a pioggia la farina e il sale.",
+            "Versare l'impasto sul piano del tavolo infarinato e tirare una sfoglia rettangolare piuttosto sottile.",
+            "Preparare la farcitura: lavorare il burro morbido con lo zucchero.",
+            "Spennellare tutta la pasta con questo composto.",
+            "Arrotolare su se stesso il rettangolo e tagliare tanti tronchetti lunghi 4 cm.",
+            "Chiuderli bene da un lato e sistemarli in una teglia unta e infarinata (diametro 26 cm) distanziati fra loro, uno al centro e gli altri a corona.",
+            "Lasciar lievitare per più di un'ora finché non saranno uniti.",
+            "Cuocere a forno caldo a 180° per 25 minuti."
+        ]
+    },
+
+    'fette_marmellata_olga': {
+        title: "Fette con Marmellata (Olga)",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1/2 Kg",
+            "Zucchero: 200g",
+            "Burro: 150g",
+            "Uova: 2 intere e 3 tuorli",
+            "Lievito: 1/2 bustina",
+            "Limone grattugiato",
+            "Marmellata (non tanta)"
+        ],
+        steps: [
+            "Impastare velocemente il tutto.",
+            "Stendere col mattarello un rettangolo sulla carta da forno.",
+            "Spalmarci sopra la marmellata (non tanta).",
+            "Si rotola con delicatezza un 'salametto' lungo.",
+            "Dopo cotto si tagliano le fette."
         ]
     }
 };
