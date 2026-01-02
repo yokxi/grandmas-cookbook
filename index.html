@@ -22,7 +22,7 @@
                 <img src="assets/images/nonna.png" alt="Nonna Maria" class="nonna-photo">
             </div>
             <h1>Le Ricette di Nonna Maria</h1>
-            <p class="subtitle">I segreti della cucina di una volta, conservati con amore.</p>
+
         </header>
 
         <nav class="categories-nav">
@@ -30,6 +30,7 @@
                 <li><a href="#primi" onclick="showCategory('primi')">Primi</a></li>
                 <li><a href="#secondi" onclick="showCategory('secondi')">Secondi</a></li>
                 <li><a href="#dolci" onclick="showCategory('dolci')">Dolci</a></li>
+                <li><a href="#liquori" onclick="showCategory('liquori')">Liquori</a></li>
                 <li><a href="#altro" onclick="showCategory('altro')">Altro</a></li>
             </ul>
         </nav>
@@ -49,7 +50,61 @@
                 <section id="primi" class="category-section" style="display:none;">
                     <h2>Primi Piatti</h2>
                     <div class="recipe-grid">
-                        <p>Nessuna ricetta presente.</p>
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Tortellini</div>
+                            </div>
+                            <h3>Tortellini (Zia Concetta)</h3>
+                            <p>Tortellini fatti in casa con ripieno di carne.</p>
+                            <button class="btn-read" onclick="openRecipe('tortellini_zia_concetta')">Leggi
+                                Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Rotolo Spinaci</div>
+                            </div>
+                            <h3>Rotolo con Spinaci</h3>
+                            <p>Pasta ripiena arrotolata con ricotta e spinaci.</p>
+                            <button class="btn-read" onclick="openRecipe('rotolo_spinaci')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Pasta e Patate</div>
+                            </div>
+                            <h3>Pasta e Patate (Apostolico)</h3>
+                            <p>Tradizionale pasta e patate.</p>
+                            <button class="btn-read" onclick="openRecipe('pasta_e_patate_apostolico')">Leggi
+                                Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Risotto Fragole</div>
+                            </div>
+                            <h3>Risotto alle Fragole</h3>
+                            <p>Risotto delicato con fragole e vino bianco.</p>
+                            <button class="btn-read" onclick="openRecipe('risotto_fragole')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Spaghetti Messicana</div>
+                            </div>
+                            <h3>Spaghetti alla Messicana</h3>
+                            <p>Spaghetti con verdure e carne tritata.</p>
+                            <button class="btn-read" onclick="openRecipe('spaghetti_messicana')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Risotto Pescatore</div>
+                            </div>
+                            <h3>Risotto alla Pescatore</h3>
+                            <p>Risotto ai frutti di mare.</p>
+                            <button class="btn-read" onclick="openRecipe('risotto_pescatore')">Leggi Ricetta</button>
+                        </article>
                     </div>
                 </section>
 
@@ -58,11 +113,60 @@
                     <div class="recipe-grid">
                         <article class="recipe-card">
                             <div class="recipe-thumb">
+                                <div class="placeholder-img">Coniglio</div>
+                            </div>
+                            <h3>Coniglio alla Vicentina</h3>
+                            <p>Coniglio in umido con vino, aceto e odori.</p>
+                            <button class="btn-read" onclick="openRecipe('coniglio_vicentina')">Leggi
+                                Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Zampone</div>
+                            </div>
+                            <h3>Zampone e Lenticchie</h3>
+                            <p>Piatto tipico delle feste con lenticchie.</p>
+                            <button class="btn-read" onclick="openRecipe('zampone_lenticchie')">Leggi
+                                Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
                                 <div class="placeholder-img">Polpettone</div>
                             </div>
                             <h3>Polpettone alla Siciliana</h3>
                             <p>Un secondo piatto ricco e saporito con olive e cipolle.</p>
-                            <button class="btn-read" onclick="openRecipe('polpettone_siciliana')">Leggi Ricetta</button>
+                            <button class="btn-read" onclick="openRecipe('polpettone_siciliana')">Leggi
+                                Ricetta</button>
+                        </article>
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Vitel Tonnato</div>
+                            </div>
+                            <h3>Vitel Tonnato</h3>
+                            <p>Carne fredda con salsa tonnata.</p>
+                            <button class="btn-read" onclick="openRecipe('vitel_tonnato')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Torta Carciofi</div>
+                            </div>
+                            <h3>Torta di Carciofi (Luana)</h3>
+                            <p>Torta salata con pasta brisè e carciofi.</p>
+                            <button class="btn-read" onclick="openRecipe('torta_carciofi_luana')">Leggi
+                                Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Ceci Melanzane</div>
+                            </div>
+                            <h3>Ceci e Melanzane (Gisa)</h3>
+                            <p>Secondo piatto ricco con ceci e melanzane fritte.</p>
+                            <button class="btn-read" onclick="openRecipe('ceci_e_melanzane_gisa')">Leggi
+                                Ricetta</button>
                         </article>
                     </div>
                 </section>
@@ -413,21 +517,21 @@
                             <button class="btn-read" onclick="openRecipe('fette_marmellata_olga')">Leggi
                                 Ricetta</button>
                         </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Zeppole Postiglione</div>
+                            </div>
+                            <h3>Zeppole (Postiglione)</h3>
+                            <p>Zeppole di patate fritte con agrumi.</p>
+                            <button class="btn-read" onclick="openRecipe('zeppole_postiglione')">Leggi Ricetta</button>
+                        </article>
                     </div>
                 </section>
 
-                <section id="altro" class="category-section" style="display:none;">
-                    <h2>Altro</h2>
+                <section id="liquori" class="category-section" style="display:none;">
+                    <h2>Liquori</h2>
                     <div class="recipe-grid">
-                        <article class="recipe-card">
-                            <div class="recipe-thumb">
-                                <div class="placeholder-img">Naspro</div>
-                            </div>
-                            <h3>Naspro (Glassa)</h3>
-                            <p>Glassa di zucchero per dolci.</p>
-                            <button class="btn-read" onclick="openRecipe('naspro')">Leggi Ricetta</button>
-                        </article>
-
                         <article class="recipe-card">
                             <div class="recipe-thumb">
                                 <div class="placeholder-img">Vov</div>
@@ -436,6 +540,7 @@
                             <p>Liquore casalingo energizzante.</p>
                             <button class="btn-read" onclick="openRecipe('vov')">Leggi Ricetta</button>
                         </article>
+
                         <article class="recipe-card">
                             <div class="recipe-thumb">
                                 <div class="placeholder-img">Limoncello Melissa</div>
@@ -492,6 +597,96 @@
 
                         <article class="recipe-card">
                             <div class="recipe-thumb">
+                                <div class="placeholder-img">Nocino</div>
+                            </div>
+                            <h3>Nocino</h3>
+                            <p>Liquore fatto in casa con le noci.</p>
+                            <button class="btn-read" onclick="openRecipe('nocino')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Liquore Caffè</div>
+                            </div>
+                            <h3>Liquore al Caffè</h3>
+                            <p>Liquore dolce al caffè fatto in casa.</p>
+                            <button class="btn-read" onclick="openRecipe('liquore_caffe')">Leggi Ricetta</button>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="altro" class="category-section" style="display:none;">
+                    <h2>Altro</h2>
+                    <div class="recipe-grid">
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Sapone</div>
+                            </div>
+                            <h3>Sapone a Crudo (Fatto in casa)</h3>
+                            <p>Ricetta per fare il sapone (NON ALIMENTARE).</p>
+                            <button class="btn-read" onclick="openRecipe('sapone_a_crudo')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Tortano</div>
+                            </div>
+                            <h3>Tortano Napoletano</h3>
+                            <p>Rustico lievitato con salumi e formaggi.</p>
+                            <button class="btn-read" onclick="openRecipe('tortano_napoletano')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Babà Salato</div>
+                            </div>
+                            <h3>Babà Salato Rustico</h3>
+                            <p>Versione salata del babà con salumi e formaggi.</p>
+                            <button class="btn-read" onclick="openRecipe('baba_salato_rustico')">Leggi Ricetta</button>
+                        </article>
+
+
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Crispelle</div>
+                            </div>
+                            <h3>Crispelle (Base)</h3>
+                            <p>Impasto base per crispelle o frittatine.</p>
+                            <button class="btn-read" onclick="openRecipe('crispelle')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Tonno Sottolio</div>
+                            </div>
+                            <h3>Tonno Sottolio</h3>
+                            <p>Conserva di tonno fatta in casa.</p>
+                            <button class="btn-read" onclick="openRecipe('tonno_sottolio')">Leggi Ricetta</button>
+                        </article>
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Naspro</div>
+                            </div>
+                            <h3>Naspro (Glassa)</h3>
+                            <p>Glassa di zucchero per dolci.</p>
+                            <button class="btn-read" onclick="openRecipe('naspro')">Leggi Ricetta</button>
+                        </article>
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
+                                <div class="placeholder-img">Erbazzone</div>
+                            </div>
+                            <h3>Erbazzone (Reggio Emilia)</h3>
+                            <p>Torta salata con spinaci e bieta.</p>
+                            <button class="btn-read" onclick="openRecipe('erbazzone_reggio_emilia')">Leggi
+                                Ricetta</button>
+                        </article>
+
+
+
+                        <article class="recipe-card">
+                            <div class="recipe-thumb">
                                 <div class="placeholder-img">Pesche Sciroppate</div>
                             </div>
                             <h3>Pesche Sciroppate Ersilia</h3>
@@ -499,6 +694,8 @@
                             <button class="btn-read" onclick="openRecipe('pesche_sciroppate_ersilia')">Leggi
                                 Ricetta</button>
                         </article>
+
+
                     </div>
                 </section>
             </main>

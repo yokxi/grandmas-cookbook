@@ -40,14 +40,17 @@ body {
 }
 
 .photo-frame {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
+    /* Square */
     margin: 0 auto 15px;
-    border: 8px solid white;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    padding: 10px 10px 40px 10px;
+    /* Polaroid padding: bottom is larger */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     overflow: hidden;
-    border-radius: 50%;
     transform: rotate(-3deg);
+    /* border-radius: 50%; REMOVED for square look */
 }
 
 .nonna-photo {

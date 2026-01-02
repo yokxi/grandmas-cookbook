@@ -68,7 +68,7 @@ const recipes = {
 
     'vov': {
         title: "Vov (Liquore all'Uovo)",
-        category: "Altro",
+        category: "Liquori",
         ingredients: [
             "Tuorli d'uovo: 3",
             "Zucchero: 200g + 200g",
@@ -167,7 +167,7 @@ const recipes = {
 
     'limoncello_melissa': {
         title: "Limoncello alla Melissa",
-        category: "Altro",
+        category: "Liquori",
         ingredients: [
             "Limoni: parte gialla di 3 limoni grandi",
             "Alcool 95°: 1/2 litro",
@@ -191,7 +191,7 @@ const recipes = {
 
     'limoncello_classico': {
         title: "Limoncello Classico",
-        category: "Altro",
+        category: "Liquori",
         ingredients: [
             "Alcool: 1/2 litro",
             "Limoni: 5",
@@ -208,7 +208,7 @@ const recipes = {
 
     'crema_di_limone': {
         title: "Crema di Limone",
-        category: "Altro",
+        category: "Liquori",
         ingredients: [
             "Limoni: bucce di 6 limoni",
             "Alcool: 1/2 litro",
@@ -226,7 +226,7 @@ const recipes = {
 
     'liquore_fragole': {
         title: "Liquore di Fragole",
-        category: "Altro",
+        category: "Liquori",
         ingredients: [
             "Fragole ben mature: 1 Kg",
             "Alcool 95°: 1 litro",
@@ -266,7 +266,7 @@ const recipes = {
 
     'mandarinetto': {
         title: "Mandarinetto",
-        category: "Altro",
+        category: "Liquori",
         ingredients: [
             "Scorza di mandarino grattugiata: 8 cucchiai",
             "Scorza di limone: 1 cucchiaino",
@@ -342,7 +342,7 @@ const recipes = {
 
     'liquore_cioccolato': {
         title: "Liquore al Cioccolato",
-        category: "Altro",
+        category: "Liquori",
         ingredients: [
             "Zucchero: 1 Kg",
             "Latte: 1 litro",
@@ -1066,6 +1066,487 @@ const recipes = {
             "Spalmarci sopra la marmellata (non tanta).",
             "Si rotola con delicatezza un 'salametto' lungo.",
             "Dopo cotto si tagliano le fette."
+        ]
+    },
+
+    'baba_rustico_apostolico': {
+        title: "Babà Rustico (Apostolico)",
+        category: "Altro",
+        ingredients: [
+            "Farina: 400g",
+            "Uova: 4",
+            "Salame, Patate (4), un po' di burro, un po' di olio",
+            "Lievito di birra: 25g",
+            "A piacere: provolone, formaggio parmigiano, pecorino, scamorza asciutta",
+            "Sale e pepe a piacere"
+        ],
+        steps: [
+            "Lessare le patate e passarle nello schiaccia patate.",
+            "Ancora calde mettere il burro e il lievito e lavorare per bene.",
+            "Aggiungere gli altri ingredienti a piccoli pezzi.",
+            "Metterli in una teglia imburrata e infarinata (riempire meno della metà).",
+            "Quando è lievitato bene, infornare a 180°."
+        ]
+    },
+
+    'zeppole_postiglione': {
+        title: "Zeppole (Postiglione)",
+        category: "Dolci",
+        ingredients: [
+            "Farina: 1 Kg",
+            "Uova: 5",
+            "Patate: 1 Kg",
+            "Olio: un po'",
+            "Sale: un pizzico",
+            "Lievito: un pezzettino",
+            "Liquore: un po'",
+            "Limone e arancio grattugiati"
+        ],
+        steps: [
+            "Impastare tutti gli ingredienti (le patate vanno lessate e schiacciate).",
+            "Friggere in abbondante olio."
+        ]
+    },
+
+    'liquore_caffe': {
+        title: "Liquore al Caffè",
+        category: "Liquori",
+        ingredients: [
+            "Alcol: 1/2 litro",
+            "Caffè: 150-200g (in grani o polvere? Probabilmente liquido ristretto o polvere per infusione - la ricetta dice 'preparare il caffè normale e ristretto')",
+            "Zucchero: 700g"
+        ],
+        steps: [
+            "Preparare il caffè normale e ristretto.",
+            "Quando è freddo, si aggiunge all'alcool.",
+            "Si lascia per un po' prima di berlo."
+        ]
+    },
+
+    'erbazzone_reggio_emilia': {
+        title: "Erbazzone (scarpazzòun)",
+        category: "Altro",
+        ingredients: [
+            "Per la sfoglia:",
+            "Farina",
+            "Sale",
+            "Pochissimo burro",
+            "Acqua e Latte (quantità ineguale, q.b. per impasto elastico e sodo)",
+            "Per il ripieno:",
+            "Spinaci: 1 Kg",
+            "Bieta: 1/2 Kg",
+            "Uova: 3",
+            "Cipolla: 1",
+            "Prezzemolo: una manciata",
+            "Pangrattato grosso",
+            "Formaggio parmigiano",
+            "Burro: una piccola noce",
+            "Lardo di prosciutto (un po' per il soffritto e fettine per guarnire)"
+        ],
+        steps: [
+            "Per la sfoglia: preparare l'impasto lavorandolo fino a renderlo elastico e sodo.",
+            "Per il ripieno: soffriggere nel burro un trito di cipolla e lardo di prosciutto.",
+            "Scottare le verdure (spinaci e bieta), tritarle grossolanamente e strizzarle bene.",
+            "Aggiungere le verdure al soffritto insieme a pangrattato, sale, prezzemolo tritato, uova e formaggio.",
+            "Tirare la sfoglia sottile e coprire il fondo di una teglia con carta forno.",
+            "Mettere una parte della sfoglia sulla base, bucherellare con la forchetta.",
+            "Versare l'impasto.",
+            "Coprire con la restante sfoglia, facendola risultare un po' raggrinzita (non liscia).",
+            "Arricchire la superficie con fettine di lardo di prosciutto.",
+            "Cuocere in forno a 180° finché la superficie è colorita e il lardo si è sciolto."
+        ]
+    },
+
+    'coniglio_vicentina': {
+        title: "Coniglio alla Vicentina",
+        category: "Secondi",
+        ingredients: [
+            "Coniglio a pezzi",
+            "Olio e Burro",
+            "Aglio, Rosmarino, Prezzemolo, Odori vari",
+            "Vino bianco: 1 bicchiere",
+            "Aceto: 1/2 bicchiere (o metà del bicchiere di vino?)",
+            "Sale e Pepe",
+            "Pomodori",
+            "Origano"
+        ],
+        steps: [
+            "Mettere il coniglio a pezzi nell'olio e burro e far rosolare a fuoco basso.",
+            "Tritare finemente aglio, rosmarino, prezzemolo e odori vari.",
+            "Prendere 1 bicchiere di vino bianco e metà d'aceto.",
+            "Si aggiunge al trito con sale e pepe.",
+            "Si versa sul coniglio facendolo evaporare lentamente.",
+            "Dopo si aggiungono pomodori e origano e si lascia cuocere."
+        ]
+    },
+
+    'tortellini_zia_concetta': {
+        title: "Tortellini (Zia Concetta)",
+        category: "Primi",
+        ingredients: [
+            "Per il Ripieno (per 9 persone):",
+            "Mortadella: 140g",
+            "Prosciutto crudo: 100g",
+            "Lonza di maiale: 150g",
+            "Carne magra di vitello: 100g",
+            "Carne magra di maiale: 70g",
+            "Petto di pollo: 70g",
+            "Parmigiano grattugiato: 200g",
+            "Uova: 2",
+            "Noce moscata: un po'",
+            "Burro: una noce",
+            "Per la Sfoglia:",
+            "Farina: 1 Kg",
+            "Uova: 10"
+        ],
+        steps: [
+            "Rosolare la carne (vitello, maiale, pollo) e la lonza tagliati a pezzetti con una noce di burro.",
+            "Passare finemente tutta la carne e i salumi.",
+            "Ripetere due o tre volte la macinata: il composto deve essere morbido e fine come una crema.",
+            "Aggiungere le uova, il formaggio e un po' di noce moscata.",
+            "Preparare la sfoglia (deve essere sottile).",
+            "Tagliare dei quadretti di circa 3 cm.",
+            "Mettere nel mezzo un pizzico di ripieno.",
+            "Chiudere a triangolo e richiudere il triangolo in modo da ottenere una piccola ciambellina."
+        ]
+    },
+
+    'rotolo_spinaci': {
+        title: "Rotolo con Spinaci",
+        category: "Primi",
+        ingredients: [
+            "Per la Sfoglia:",
+            "Uova: 2",
+            "Farina",
+            "Acqua: un poco",
+            "Per la farcitura (per 4 persone):",
+            "Spinaci: 250g",
+            "Ricotta: 400g",
+            "Uova intere: 2",
+            "Formaggio parmigiano",
+            "Sale e pepe"
+        ],
+        steps: [
+            "Cuocere gli spinaci senza acqua, strizzarli e unirli alla ricotta.",
+            "Aggiungere le uova, il formaggio, sale e pepe senza lavorarlo troppo.",
+            "Tirare la sfoglia e mettere il ripieno.",
+            "Formare un rotolo (si può anche congelare).",
+            "Quando serve, tagliare a rotelle.",
+            "Sistemarle in una teglia imburrata, coprirle di besciamella e mettere in forno."
+        ]
+    },
+
+    'pasta_e_patate_apostolico': {
+        title: "Pasta e Patate (Apostolico)",
+        category: "Primi",
+        ingredients: [
+            "Pancetta tritata",
+            "Aglio tritato",
+            "Basilico tritato: una manciata",
+            "Patate",
+            "Pasta a cubetti/tocchetti",
+            "Formaggio"
+        ],
+        steps: [
+            "Mettere a soffriggere pancetta e aglio tritati.",
+            "Quando è ancora umido, buttare dentro una manciata di basilico tritato e spegnere il fuoco.",
+            "Nell'acqua bollente buttare le patate a tocchetti.",
+            "Dopo un po' aggiungere la pasta.",
+            "Quando è cotta, scolarla e buttarla nel soffritto con un mestolino d'acqua della pasta e del formaggio."
+        ]
+    },
+
+    'zampone_lenticchie': {
+        title: "Zampone e Lenticchie",
+        category: "Secondi",
+        ingredients: [
+            "Zampone o Cotechino: 1",
+            "Lenticchie: 1 Kg",
+            "Olio: 5 cucchiai",
+            "Burro: una noce",
+            "Soffritto: cipolla, sedano, carota, pancetta, aglio, alloro",
+            "Conserva di pomodoro: 1 cucchiaio",
+            "Brodo, Sale, Pepe"
+        ],
+        steps: [
+            "Mettere a bagno le lenticchie per una notte.",
+            "Preparare un soffritto con burro, olio, cipolla, sedano, carota, pancetta, aglio e alloro.",
+            "Aggiungere le lenticchie e il pomodoro, mescolare bene e far cuocere a fuoco lento (aggiungendo brodo se necessario).",
+            "A parte, bollire lentamente lo zampone pungendolo in modo che non scoppi.",
+            "Servire caldo affettato con le lenticchie."
+        ]
+    },
+
+    'sapone_a_crudo': {
+        title: "Sapone a Crudo",
+        category: "Altro",
+        ingredients: [
+            "Acqua: 1.7 litri",
+            "Soda: 1/2 Kg",
+            "Olio: 2 litri e mezzo (o sugna)",
+            "Detersivo per bucato: 1 scatolo",
+            "Farina: 1 pugno"
+        ],
+        steps: [
+            "ATTENZIONE: Ricetta per sapone fatto in casa (non alimentare).",
+            "Mettere tutto in un recipiente.",
+            "Girare per molto tempo finché non addensa."
+        ]
+    },
+
+    'tortano_napoletano': {
+        title: "Tortano Napoletano",
+        category: "Altro",
+        ingredients: [
+            "Per l'impasto:",
+            "Farina: 400g",
+            "Acqua tiepida: 100g",
+            "Latte: 100g",
+            "Uova: 1",
+            "Lievito: 1 cubetto",
+            "Zucchero: 1 cucchiaino",
+            "Sale: 1 cucchiaino",
+            "Burro: 50g (25g nell'impasto, il resto per ungere)",
+            "Pepe q.b.",
+            "Per il ripieno:",
+            "Salame napoletano piccante: 150g",
+            "Provolone: 150g",
+            "Pancetta/Prosciutto: 50g"
+        ],
+        steps: [
+            "Lavorare in un recipiente latte, acqua, uovo, 25g di burro, sale e zucchero.",
+            "Aggiungere il lievito e la farina e lavorare come un panettone morbido.",
+            "Lasciar lievitare per circa un'ora.",
+            "Stendere la pasta sul tavolo sopra un foglio di carta stagnola infarinata (rettangolo).",
+            "Ungere la pasta con il rimanente burro e info d'olio.",
+            "Cospargere con i salumi e formaggi tritati per bene.",
+            "Arrotolare nel senso della lunghezza.",
+            "Adagiare in una teglia imburrata formando una ciambella.",
+            "Lasciar lievitare per circa un'ora.",
+            "Cuocere in forno caldo a 220° per 20 minuti, poi a 180° per altri 30 minuti.",
+            "Pochi minuti prima di sfornare, spennellare con uovo sbattuto."
+        ]
+    },
+
+    'risotto_fragole': {
+        title: "Risotto alle Fragole",
+        category: "Primi",
+        ingredients: [
+            "Fragole",
+            "Mezzo bicchiere di vino bianco",
+            "Cipolla finissima",
+            "Burro",
+            "Riso",
+            "Brodo vegetale",
+            "Panna liquida: un cucchiaio"
+        ],
+        steps: [
+            "Lavare le fragole e metterle a bagno in mezzo bicchiere di vino bianco per mezz'ora (macerare).",
+            "A parte fare un soffritto con cipolla e burro.",
+            "Tostare il riso, unire del brodo vegetale e mescolare.",
+            "Versare il vino bianco (della macerazione) e far evaporare.",
+            "Quando il riso sarà cotto, mettere le fragole tagliate a pezzi e un cucchiaio di panna liquida.",
+            "Mantecare e servire subito."
+        ]
+    },
+
+    'vitel_tonnato': {
+        title: "Vitel Tonnato",
+        category: "Secondi",
+        ingredients: [
+            "Pezzo di carne (tipo rosbif)",
+            "Carote: 2",
+            "Sedano",
+            "Salvia, Rosmarino",
+            "Patate",
+            "Alloro: 2 foglie",
+            "Caffè (in chicchi?)",
+            "Acciughe: 2",
+            "Dado per brodo",
+            "Metà limone",
+            "Tonno",
+            "Maionese"
+        ],
+        steps: [
+            "Mettere a bollire la carne con carote, sedano, salia, rosmarino, patate, alloro, caffè, acciughe, dado e limone.",
+            "Cuocere tutto e lasciar raffreddare.",
+            "Il giorno dopo tagliare la carne molto sottile (non deve essere molto cotta).",
+            "Frullare il brodo con tutti gli ingredienti, aggiungendo altro tonno e maionese: deve venire una cremina da spalmare.",
+            "Disporre le fettine in un solo strato, coprirle con la salsa e con un foglio di pellicola.",
+            "Mettere in frigo e servire freddo."
+        ]
+    },
+
+    'baba_salato_rustico': {
+        title: "Babà Salato Rustico",
+        category: "Altro",
+        ingredients: [
+            "Farina: 500g",
+            "Patate lessate e schiacciate: 250g",
+            "Lievito: 25g",
+            "Uova: 3",
+            "Latte: 1 bicchiere",
+            "Burro fuso: 100g",
+            "Fontina o Caciocavallo: 200g",
+            "Salame: 200g",
+            "Prosciutto cotto: 200g",
+            "Parmigiano: 2 cucchiai"
+        ],
+        steps: [
+            "Impastare la farina e il lievito sciolto nel latte ed il burro.",
+            "Unire le patate e tutti gli altri ingredienti tagliati a piccoli pezzi.",
+            "Lasciare lievitare per circa un'ora.",
+            "Rimpastare e mettere in una teglia per ciambelle.",
+            "Far lievitare per circa 2 ore.",
+            "Cuocere in forno caldo a 180° per 45 minuti circa."
+        ]
+    },
+
+    'torta_carciofi_luana': {
+        title: "Torta di Carciofi (Luana)",
+        category: "Secondi",
+        ingredients: [
+            "Pasta Brisè:",
+            "Farina: 200g",
+            "Olio: 50g",
+            "Burro morbido: 100g",
+            "Sale: 1 pizzico",
+            "Acqua: 50g",
+            "Ripieno:",
+            "Cuori di carciofi: 300g",
+            "Ricotta: 100g",
+            "Latte o Panna: 100g",
+            "Uova: 2",
+            "Parmigiano, Sale, Pepe"
+        ],
+        steps: [
+            "Lavorare gli ingredienti della pasta e far riposare mezz'ora in frigo.",
+            "Ungere una teglia di circa 26cm e foderare fondo e bordi con parte della pasta.",
+            "Mondare i carciofi, metterli in acqua e limone, sgocciolarli e cuocerli in padella con olio, sale e pepe a fuoco basso.",
+            "Passare la ricotta, unire panna/latte, uova, parmigiano, sale e pepe.",
+            "Disporre i carciofi sulla pasta e mettere l'impasto di ricotta.",
+            "Ricoprire con l'altro disco di pasta, ripiegare i bordi, spennellare con uovo sbattuto.",
+            "Cuocere a 180° per 40 minuti."
+        ]
+    },
+
+    'nocino': {
+        title: "Nocino",
+        category: "Liquori",
+        ingredients: [
+            "Noci: 24",
+            "Zucchero: 330g",
+            "Cannella: 1 bastoncino",
+            "Alcool: 1 litro",
+            "Chiodi di garofano: 24",
+            "Noce moscata: 1",
+            "Buccia di limone"
+        ],
+        steps: [
+            "Tagliare le noci intere a pezzetti.",
+            "Metterle nell'alcool con cannella, garofano, noce moscata e buccia di limone in un vaso di vetro.",
+            "Mettere al sole per 7 giorni.",
+            "Dopo si scioglie lo zucchero in mezzo bicchiere di sua acqua e si aggiunge nel vaso.",
+            "Lasciar riposare per 40 giorni prima di filtrare e mettere in bottiglie."
+        ]
+    },
+
+    'spaghetti_messicana': {
+        title: "Spaghetti alla Messicana",
+        category: "Primi",
+        ingredients: [
+            "Per 4 persone",
+            "Melanzane: 2",
+            "Carota: 1",
+            "Cipolla: 1",
+            "Carne tritata: 200g",
+            "Pelato: poco (per colorare)",
+            "Peperoncino: a piacere",
+            "Spaghetti: 500g",
+            "Aglio, Olio, Sale"
+        ],
+        steps: [
+            "Tritare melanzane, carota, cipolla e carne.",
+            "Far cuocere a fuoco lento aggiungendo sale e olio (circa 30 minuti), con un po' di pelato e peperoncino.",
+            "Preparare gli spaghetti aglio e olio (o con preparato).",
+            "Mettere gli spaghetti in una pirofila o vasetti di terracotta.",
+            "Aggiungere sulla superficie il trito di carne e verdure.",
+            "Mettere in forno il tutto per 10 minuti."
+        ]
+    },
+
+    'risotto_pescatore': {
+        title: "Risotto alla Pescatore",
+        category: "Primi",
+        ingredients: [
+            "Vongole e Cozze",
+            "Gamberi",
+            "Polipi e Seppie",
+            "Riso",
+            "Olio, Prezzemolo, Peperoncino",
+            "Pomodoro: un po'",
+            "Sale"
+        ],
+        steps: [
+            "Far bollire vongole e cozze, scolarle ma conservare l'acqua filtrata.",
+            "Scaldare i gamberi con sale fin quando bollono, poi sgusciarli.",
+            "Scaldare polipi e seppie (già tagliati a pezzi piccoli).",
+            "Preparare in una pentola un soffritto con olio, prezzemolo e peperoncino.",
+            "Aggiungere un po' di pomodoro e quando bolle aggiungere il pesce e l'acqua colata dei frutti di mare.",
+            "Far cuocere il sughetto per 10 minuti.",
+            "Scaldare il riso a metà cottura, quindi finirlo di cuocere nel sughetto."
+        ]
+    },
+
+    'ceci_e_melanzane_gisa': {
+        title: "Ceci e Melanzane (Gisa)",
+        category: "Secondi",
+        ingredients: [
+            "Ceci: 1/2 Kg",
+            "Melanzane grandi: 4",
+            "Cipolle: 2",
+            "Pomodori",
+            "Olio, Sale, Pepe",
+            "Trito: aglio, prezzemolo, basilico, salvia, rosmarino"
+        ],
+        steps: [
+            "Tagliare le melanzane a tocchetti, lasciarle sotto sale, sciacquarle e friggerle.",
+            "A parte friggere le cipolle a fettine a fuoco dolce con un po' d'acqua.",
+            "In una pirofila mettere un po' d'olio, le melanzane, coprire con le cipolle, i ceci cotti e pezzetti di pomodoro.",
+            "Aggiungere sale, pepe e il trito di odori.",
+            "Far riscaldare sul fuoco e poi passare in forno per 45 minuti a 180°."
+        ]
+    },
+
+    'crispelle': {
+        title: "Crispelle (Base)",
+        category: "Altro",
+        ingredients: [
+            "Uova: 3",
+            "Farina: 125g",
+            "Latte: 1/4 litro",
+            "Burro: 25g",
+            "Pizzico di sale"
+        ],
+        steps: [
+            "Mescolare tutti gli ingredienti per ottenere una pastella.",
+            "Fare le frittatine sottili (crepes) in padella."
+        ]
+    },
+
+    'tonno_sottolio': {
+        title: "Tonno Sottolio",
+        category: "Altro",
+        ingredients: [
+            "Tonno: 1 Kg",
+            "Sale: 130g",
+            "Acqua: quanto basta per coprirlo",
+            "Olio per conservare"
+        ],
+        steps: [
+            "Far bollire il tonno in acqua e sale a fuoco moderato per 3 ore.",
+            "Mettere ad asciugare per 24 ore su un canovaccio.",
+            "Metterlo nei vasetti coperto d'olio."
         ]
     }
 };
