@@ -63,7 +63,7 @@ body {
 h1 {
     font-family: var(--font-hand);
     font-size: 3.5rem;
-    margin: 10px 0;
+    margin: 10px 0 40px;
     color: var(--accent-sepia);
 }
 
