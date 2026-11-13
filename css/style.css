@@ -196,6 +196,162 @@ h2 {
     color: black;
 }
 
+.recipe-title {
+    margin-top: 0;
+}
+
+.recipe-columns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.recipe-ingredients {
+    flex: 1;
+    min-width: 250px;
+}
+
+.recipe-steps {
+    flex: 1.5;
+    min-width: 300px;
+}
+
+.recipe-ingredients ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.recipe-ingredients li {
+    margin-bottom: 10px;
+}
+
+.recipe-steps li {
+    margin-bottom: 12px;
+}
+
+.recipe-notes {
+    margin-top: 20px;
+    border-top: 1px dashed var(--accent-sepia);
+    padding-top: 10px;
+}
+
+.btn-print {
+    background: var(--accent-sepia);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-family: var(--font-reading);
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.recipe-columns,
+.recipe-columns > div,
+.modal-content {
+    overflow-wrap: break-word;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .notebook-container,
+    .modal-content {
+        box-sizing: border-box;
+    }
+
+    .notebook-container {
+        padding: 25px 25px;
+    }
+
+    h1 {
+        font-size: clamp(2.2rem, 9vw, 3.5rem);
+        margin-bottom: 25px;
+    }
+
+    h2 {
+        font-size: clamp(1.8rem, 7vw, 2.5rem);
+    }
+
+    .categories-nav ul {
+        flex-wrap: wrap;
+        gap: 8px 16px;
+        margin-bottom: 25px;
+    }
+
+    .categories-nav a {
+        font-size: 1.5rem;
+        display: inline-block;
+        padding: 10px 6px;
+    }
+
+    .photo-frame {
+        width: min(250px, 70vw);
+        height: min(250px, 70vw);
+        box-sizing: border-box;
+    }
+
+    .recipe-grid {
+        gap: 20px;
+    }
+
+    .modal-content {
+        width: 90%;
+        padding: 25px;
+        margin: 4% auto;
+    }
+
+    .recipe-ingredients,
+    .recipe-steps {
+        flex: 1 1 100%;
+        min-width: 0;
+    }
+
+    .close-btn {
+        min-width: 44px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: -15px -15px 0 0;
+    }
+
+    .btn-print,
+    .btn-read {
+        min-height: 44px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 6px;
+    }
+
+    .notebook-container {
+        padding: 18px 14px;
+        border-left-width: 6px;
+    }
+
+    .recipe-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .categories-nav a {
+        font-size: 1.3rem;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 18px 14px;
+        margin: 8px auto;
+        box-sizing: border-box;
+    }
+}
 
 @media print {
     body {
