@@ -19,25 +19,25 @@ function openRecipe(recipeId) {
     const modalBody = document.getElementById('modal-body');
 
     let html = `
-        <h2 style="margin-top:0">${recipe.title}</h2>
+        <h2 class="recipe-title">${recipe.title}</h2>
         <p><strong>Categoria:</strong> ${recipe.category}</p>
         
-        <div style="display:flex; gap:20px; flex-wrap:wrap; margin-top:20px;">
-            <div style="flex:1; min-width:250px;">
+        <div class="recipe-columns">
+            <div class="recipe-ingredients">
                  <h3>Ingredienti</h3>
-                 <ul style="list-style-type: disc; padding-left: 20px;">
-                    ${recipe.ingredients.map(ing => `<li style="margin-bottom: 10px;">${ing}</li>`).join('')}
+                 <ul>
+                    ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}
                  </ul>
             </div>
-            <div style="flex:1.5; min-width:300px;">
+            <div class="recipe-steps">
                  <h3>Procedimento</h3>
                  <ol>
-                    ${recipe.steps.map(step => `<li style="margin-bottom: 12px;">${step}</li>`).join('')}
+                    ${recipe.steps.map(step => `<li>${step}</li>`).join('')}
                  </ol>
             </div>
         </div>
         
-        <div style="margin-top:20px; border-top:1px dashed #8b5a2b; padding-top:10px;">
+        <div class="recipe-notes">
             <p><em>Note di nonna: ${recipe.notes}</em></p>
         </div>
     `;
